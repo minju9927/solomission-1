@@ -1,0 +1,106 @@
+@media screen and (max-width:1800px) {
+    .hero .img_wrap {
+        transform: translateX(-5rem);
+        width: auto;
+    }
+
+    nav {
+        gap: 5rem;
+    }
+
+    .nav_list {
+        gap: 3rem;
+    }
+
+    .hero .tit_wrap h2 {
+        font-size: 7rem;
+        letter-spacing: -.25rem;
+    }
+
+    .hero_btn {
+        font-size: 2rem;
+        padding: .8rem 2rem;
+    }
+
+    .hero .tit_wrap p {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 21.4rem;
+        height: 32.8rem;
+    }
+
+    .card a {
+        padding: 0 2rem 4rem;
+    }
+
+    .card_t_wrap p.txt {
+        font-size: 1.2rem;
+    }
+
+    .card_t_wrap h4 {
+        font-size: 1.8rem;
+        margin: .5rem 0 1rem;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+    .hero .rel {
+        justify-content: space-around;
+    }
+
+    .hero .rel,
+    header .rel {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+    .hero {
+        background-image: url(../img/hero-bg-mob.png);
+    }
+
+    .hero .rel {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .hero_btn {
+        margin-top: 2rem;
+    }
+
+    .hero .tit_wrap p {
+        display: none;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .hero .img_wrap {
+        transform: translateX(0);
+    }
+
+    .hero .tit_wrap {
+        order: 1;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .card:not(.card1) {
+        display: none;
+    }
+
+    .hero .rel,
+    header .rel {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
